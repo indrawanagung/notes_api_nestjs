@@ -1,0 +1,6 @@
+CREATE TABLE notes (
+	id serial not null,
+	title varchar not null,
+	note text not null,
+	constraint notes_pk primary key (id)
+);
